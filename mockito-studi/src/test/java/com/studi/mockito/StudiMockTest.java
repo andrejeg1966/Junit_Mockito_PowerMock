@@ -32,7 +32,7 @@ public class StudiMockTest {
     @Test
     public void testAnmelden() {
     	//prüfe ob die gemockte Funktion anmelden true zurückgibt
-        assertTrue(studi.anmelden("PM-Dungeon"));
+    	assertTrue(studi.anmelden("PM-Dungeon"));
     }
 
     @Test
